@@ -1,0 +1,130 @@
+body{
+    text-align: center;
+    background-image: url(glass.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 62.5%;
+}
+
+#body{
+    background-color: rgb(255, 255, 255,0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+#container{
+    height: 40dvh;
+    display: flex;
+}
+
+#div-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#div-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#score1 {
+    font-size: 7rem;
+    margin-bottom: 10rem;
+}
+#score2 {
+    font-size: 7rem;
+    margin-bottom: 10rem;
+}
+
+button{
+    width: 6rem;
+}
+
+#divone{
+    display: flex;
+    justify-content: space-around;
+}
+#divtwo{
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    font-size: 3rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#margin{
+    font-size: 3rem;
+    margin: 0;
+}
+#difference{
+    font-size: 6rem;
+    margin-top: 0;
+}
+
+
+#plus10{
+    background-color: blue;
+}
+#plus10:hover{
+    background-color: rgb(102, 102, 210);
+}
+#plus15{
+    background-color: cornflowerblue;
+}
+#plus15:hover{
+    background-color: rgb(43, 90, 176);
+}
+#minus{
+    background-color: red;
+}
+#minus:hover{
+    background-color: rgb(156, 42, 42);
+}
+#plus102{
+    background-color: blue;
+}
+#plus102:hover{
+    background-color: rgb(102, 102, 210);
+}
+#plus152{
+    background-color: cornflowerblue;
+}
+#plus15:hover{
+    background-color: rgb(43, 90, 176);
+}
+#minus2{
+    background-color: red;
+}
+#minus:hover{
+    background-color: rgb(156, 42, 42);
+}
+
+#reset{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 30% ;
+    margin-top: 0;
+}
+
+button{
+    border: none;
+    padding: 1rem;
+    border-radius: 30% ;
+}
+#margindiv{
+    margin-top: 8rem;
+}
