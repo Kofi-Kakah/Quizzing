@@ -110,6 +110,8 @@ setInterval(margin, 100);
 resetButton.onclick = function() {
     score1.innerHTML = "0";
     score2.innerHTML = "0";
+    input1.value = "";
+    input2.value = "";
     saveState();
 };
 
